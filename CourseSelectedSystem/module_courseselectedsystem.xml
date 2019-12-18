@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_courseselectedsystem" default="compile.module.courseselectedsystem">
+  <dirname property="module.courseselectedsystem.basedir" file="${ant.file.module_courseselectedsystem}"/>
+  
+  <property name="module.jdk.home.courseselectedsystem" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.courseselectedsystem" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.courseselectedsystem" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.courseselectedsystem" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="courseselectedsystem.output.dir" value="${module.courseselectedsystem.basedir}/out/production/CourseSelectedSystem"/>
+  <property name="courseselectedsystem.testoutput.dir" value="${module.courseselectedsystem.basedir}/out/test/CourseSelectedSystem"/>
+  
+  <path id="courseselectedsystem.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="courseselectedsystem.module.production.classpath">
+    <path refid="${module.jdk.classpath.courseselectedsystem}"/>
+  </path>
+  
+  <path id="courseselectedsystem.runtime.production.module.classpath">
+    <pathelement location="${courseselectedsystem.output.dir}"/>
+  </path>
+  
+  <path id="courseselectedsystem.module.classpath">
+    <path refid="${module.jdk.classpath.courseselectedsystem}"/>
+    <pathelement location="${courseselectedsystem.output.dir}"/>
+  </path>
+  
+  <path id="courseselectedsystem.runtime.module.classpath">
+    <pathelement location="${courseselectedsystem.testoutput.dir}"/>
+    <pathelement location="${courseselectedsystem.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.courseselectedsystem">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.courseselectedsystem">
+    <patternset refid="excluded.from.module.courseselectedsystem"/>
+  </patternset>
+  
+  <path id="courseselectedsystem.module.sourcepath">
+    <dirset dir="${module.courseselectedsystem.basedir}">
+      <include name="src"/>
+      <include name="src/res"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.courseselectedsystem" depends="compile.module.courseselectedsystem.production,compile.module.courseselectedsystem.tests" description="Compile module CourseSelectedSystem"/>
+  
+  <target name="compile.module.courseselectedsystem.production" depends="register.custom.compilers" description="Compile module CourseSelectedSystem; production classes">
+    <mkdir dir="${courseselectedsystem.output.dir}"/>
+    <javac2 destdir="${courseselectedsystem.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.courseselectedsystem}/javac">
+      <compilerarg line="${compiler.args.courseselectedsystem}"/>
+      <bootclasspath refid="courseselectedsystem.module.bootclasspath"/>
+      <classpath refid="courseselectedsystem.module.production.classpath"/>
+      <src refid="courseselectedsystem.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.courseselectedsystem"/>
+    </javac2>
+    
+    <copy todir="${courseselectedsystem.output.dir}">
+      <fileset dir="${module.courseselectedsystem.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.courseselectedsystem.basedir}/src/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.courseselectedsystem.tests" depends="register.custom.compilers,compile.module.courseselectedsystem.production" description="compile module CourseSelectedSystem; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.courseselectedsystem" description="cleanup module">
+    <delete dir="${courseselectedsystem.output.dir}"/>
+    <delete dir="${courseselectedsystem.testoutput.dir}"/>
+  </target>
+</project>

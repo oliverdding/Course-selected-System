@@ -166,7 +166,7 @@ public class MainApp extends Application {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/RootLayout.fxml"));
-            rootLayout = (BorderPane) loader.load();
+            rootLayout = loader.load();
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout, 600, 460);
@@ -192,7 +192,7 @@ public class MainApp extends Application {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/HomeLayout.fxml"));
-            AnchorPane homeOverview = (AnchorPane) loader.load();
+            AnchorPane homeOverview = loader.load();
 
             // Set person overview into the center of root layout.
             rootLayout.setCenter(homeOverview);

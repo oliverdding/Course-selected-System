@@ -56,7 +56,7 @@ public class HomeLayoutController {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/HomeLayout.fxml"));
-            AnchorPane homeOverview = (AnchorPane) loader.load();
+            AnchorPane homeOverview = loader.load();
 
             // Set person overview into the center of root layout.
             rootLayout.setCenter(homeOverview);
@@ -74,7 +74,7 @@ public class HomeLayoutController {
     private void handleCouBut(){
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/oliverdd/view/CourseLayout.fxml"));
-            AnchorPane root = (AnchorPane)loader.load();
+            AnchorPane root = loader.load();
 
             CourseLayoutController controller = loader.getController();
             // Give the controller access to the main app.
@@ -117,7 +117,7 @@ public class HomeLayoutController {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/AboutLayout.fxml"));
-            AnchorPane homeOverview = (AnchorPane) loader.load();
+            AnchorPane homeOverview = loader.load();
 
             // Set person overview into the center of root layout.
             rootLayout.setCenter(homeOverview);

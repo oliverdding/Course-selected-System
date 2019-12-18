@@ -60,21 +60,14 @@ public class Myfile{
     public String getDataFilePath() {
         Preferences prefs = Preferences.userNodeForPackage(MainApp.class);
         String filePath = prefs.get("filePath", null);
-        if (filePath != null) {
-            return filePath;
-        } else {
-            return null;
-        }
+        return filePath;
     }
 
     public boolean isExist(){
-        if(couFile.exists() &&
-           teaFile.exists() &&
-           stuFile.exists() &&
-           schFile.exists() ){
-            return true;
-        }
-        return false;
+        return couFile.exists() &&
+                teaFile.exists() &&
+                stuFile.exists() &&
+                schFile.exists();
     }
 
     private void setDataFilePath(String path) {

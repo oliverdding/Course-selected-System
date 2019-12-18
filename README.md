@@ -9,7 +9,7 @@ Copyright © 2019 [OliverDD](https://qaqddbest.github.io) [oliverdd@std.uestc.ed
 ## Firstly
 
 * I build this application with purely javafx8, which means i didn't use any library at all. The Course Selected System is purely based on the javafx8.
-* The application's interface refers to this [repository](https://github.com/k33ptoo/School-Management-System-JavaFX). But I **promise** that I **did not** copy any code from it.
+* The application's interface refers to this [repository](https://github.com/k33ptoo/School-Management-System-JavaFX).
 * This application haven't been finished yet, since the works left behind is really a boring repetition.
 * It was the first trial of my javafx application and desktop application, which means many bugs and not perfect. Please not be so strict at me, thanks!
 
