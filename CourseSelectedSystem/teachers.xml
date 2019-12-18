@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<teachers>
+    <teacher>
+        <age>56</age>
+        <name>what</name>
+        <sex>Female</sex>
+        <tid>199882341</tid>
+        <title>Doctor</title>
+    </teacher>
+    <teacher>
+        <age>56</age>
+        <name>what why how</name>
+        <sex>Female</sex>
+        <tid>198882121</tid>
+        <title>Teacher</title>
+    </teacher>
+    <teacher>
+        <age>56</age>
+        <name>why</name>
+        <sex>Female</sex>
+        <tid>201199121</tid>
+        <title>vice-Doctor</title>
+    </teacher>
+    <teacher>
+        <age>56</age>
+        <name>how</name>
+        <sex>Female</sex>
+        <tid>189911291</tid>
+        <title>vice-Doctor</title>
+    </teacher>
+</teachers>

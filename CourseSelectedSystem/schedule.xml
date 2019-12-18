@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<teachers>
+    <teacher>
+        <cid>10244201</cid>
+        <classid>10101101</classid>
+        <tid>199882341</tid>
+    </teacher>
+    <teacher>
+        <cid>18233251</cid>
+        <classid>10252151</classid>
+        <tid>199882341</tid>
+    </teacher>
+    <teacher>
+        <cid>22222222</cid>
+        <classid>11515301</classid>
+        <tid>198882121</tid>
+    </teacher>
+    <teacher>
+        <cid>44444444</cid>
+        <classid>22525262</classid>
+        <tid>198882121</tid>
+    </teacher>
+    <teacher>
+        <cid>10223124</cid>
+        <classid>26423215</classid>
+        <tid>201199121</tid>
+    </teacher>
+    <teacher>
+        <cid>12167281</cid>
+        <classid>15215215</classid>
+        <tid>201199121</tid>
+    </teacher>
+    <teacher>
+        <cid>33333333</cid>
+        <classid>24626262</classid>
+        <tid>189911291</tid>
+    </teacher>
+    <teacher>
+        <cid>15356371</cid>
+        <classid>72432522</classid>
+        <tid>189911291</tid>
+    </teacher>
+</teachers>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<courses>
+    <course>
+        <chour>1</chour>
+        <cid>10244201</cid>
+        <classroom>pingC 1301</classroom>
+        <cname>Chines</cname>
+        <teacher>what</teacher>
+    </course>
+    <course>
+        <chour>13</chour>
+        <cid>10223124</cid>
+        <classroom>pingA 311</classroom>
+        <cname>English</cname>
+        <teacher>why</teacher>
+    </course>
+    <course>
+        <chour>10</chour>
+        <cid>22222222</cid>
+        <classroom>pingB 111</classroom>
+        <cname>Physics</cname>
+        <teacher>what why how</teacher>
+    </course>
+    <course>
+        <chour>22</chour>
+        <cid>33333333</cid>
+        <classroom>pingA 30151</classroom>
+        <cname>Sport</cname>
+        <teacher>how</teacher>
+    </course>
+    <course>
+        <chour>7</chour>
+        <cid>44444444</cid>
+        <classroom>pingB 31501</classroom>
+        <cname>Geography</cname>
+        <teacher>what why how</teacher>
+    </course>
+    <course>
+        <chour>8</chour>
+        <cid>15356371</cid>
+        <classroom>pingD 301511</classroom>
+        <cname>Music</cname>
+        <teacher>how</teacher>
+    </course>
+    <course>
+        <chour>1</chour>
+        <cid>12167281</cid>
+        <classroom>pingA 30151</classroom>
+        <cname>English</cname>
+        <teacher>why</teacher>
+    </course>
+    <course>
+        <chour>2</chour>
+        <cid>18233251</cid>
+        <classroom>pingD 3101</classroom>
+        <cname>Chines</cname>
+        <teacher>what</teacher>
+    </course>
+</courses>

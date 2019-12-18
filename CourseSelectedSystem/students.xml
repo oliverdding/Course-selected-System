@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <age>19</age>
+        <name>D.J jack</name>
+        <sex>Male</sex>
+        <major>English</major>
+        <sid>2077091006001</sid>
+    </student>
+    <student>
+        <age>20</age>
+        <name>R You OKAY</name>
+        <sex>Female</sex>
+        <major>Chinese</major>
+        <sid>2077091608028</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Super cat</name>
+        <sex>Female</sex>
+        <major>Physics</major>
+        <sid>2077091608128</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Holy Jason</name>
+        <sex>Male</sex>
+        <major>Music</major>
+        <sid>2067091624025</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Mark Dan</name>
+        <sex>Male</sex>
+        <major>Sport</major>
+        <sid>2078091604312</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Lays D</name>
+        <sex>Female</sex>
+        <major>Geography</major>
+        <sid>2074011508011</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Cheng yi</name>
+        <sex>Female</sex>
+        <major>Math</major>
+        <sid>2075121608062</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>BalaBala</name>
+        <sex>Male</sex>
+        <major>Math</major>
+        <sid>2072411616025</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>BaBaLa</name>
+        <sex>Female</sex>
+        <major>English</major>
+        <sid>2071521243024</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Diu De</name>
+        <sex>Male</sex>
+        <major>Music</major>
+        <sid>2071231601254</sid>
+    </student>
+    <student>
+        <age>19</age>
+        <name>Oh my god</name>
+        <sex>Female</sex>
+        <major>Sport</major>
+        <sid>2071234608012</sid>
+    </student>
+</students>

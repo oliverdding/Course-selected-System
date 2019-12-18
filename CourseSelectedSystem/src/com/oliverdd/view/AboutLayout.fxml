@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="460.0" minWidth="550.0" prefHeight="460.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oliverdd.controller.HomeLayoutController">
+    <children>
+      <AnchorPane prefHeight="100.0" style="-fx-background-color: #1976D2; -fx-background-radius: 1em;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+
+        <Text fill="WHITE" layoutX="248.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course Selected System By OliverDD" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+            <font>
+                <Font name="Agency FB Bold" size="30.0" />
+            </font>
+        </Text>
+      <VBox alignment="CENTER" layoutY="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="97.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../res/img/avator.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="OliverDD">
+                        <font>
+                            <Font name="Droid Serif" size="19.0" />
+                        </font>
+                    </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MIT License">
+                        <font>
+                            <Font name="Droid Serif" size="20.0" />
+                        </font>
+                    </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright © 2019 OliverDD oliverdd@std.uestc.edu.cn" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                    <TextArea prefHeight="179.0" prefWidth="350.0" text="Permission is hereby granted, free of charge, to any person obtaining a copy&#10;of this software and associated documentation files (the “Software”), to deal&#10;in the Software without restriction, including without limitation the rights&#10;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#10;copies of the Software, and to permit persons to whom the Software is&#10;furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in&#10;all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#10;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#10;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#10;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#10;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#10;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN&#10;THE SOFTWARE." />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="retBut" alignment="CENTER" layoutX="23.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleRetBut" style="-fx-background-color: #1976D2; -fx-background-radius: 1em;" text="←Return" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: #1976D2;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>
